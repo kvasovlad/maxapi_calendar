@@ -1,7 +1,7 @@
 
   
 
-# Date Selection tool for Aiogram Telegram Bots
+# Date Selection tool for MaxAPI Bots
 
   
 

@@ -3,11 +3,11 @@ requires      = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aiogram_calendar"
-version = "0.6.0"
-description = "Simple Inline Calendar & Date Selection tool for Aiogram Telegram bots"
+name = "maxapi_calendar"
+version = "0.1.0"
+description = "Simple Inline Calendar & Date Selection tool for MaxAPI bots"
 readme = "README.md"
-authors = [{ name = "Andrii Nikolabai", email = "nikolabay.as@gmail.com" }]
+authors = [{ name = "Vladislav Kvasov", email = "vladkvasov@gmail.com" }]
 license = { file = "LICENSE.txt" }
 classifiers = [
     'Development Status :: 3 - Alpha',
@@ -21,9 +21,9 @@ classifiers = [
     'Programming Language :: Python :: 3.12',
     'Programming Language :: Python :: 3.13'
 ]
-keywords = ['Aiogram', 'Telegram', 'Bots', 'Calendar']
+keywords = ['MaxAPI', 'Bots', 'Calendar']
 dependencies = [
-    'aiogram>=3.7'
+    'maxapi>=0.9.18'
 ]
 requires-python = ">=3.9"
 
@@ -31,4 +31,4 @@ requires-python = ">=3.9"
 dev = ["pytest", "pytest-asyncio"]
 
 [project.urls]
-Homepage = "https://github.com/noXplode/aiogram_calendar"
+Homepage = "https://github.com/kvasovlad/maxapi_calendar"

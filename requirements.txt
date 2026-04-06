@@ -1,2 +1,2 @@
-aiogram~=3.7
-aiogram_calendar
+maxapi~=0.9.18
+maxapi_calendar
