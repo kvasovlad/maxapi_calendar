@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "maxapi_calendar"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple Inline Calendar & Date Selection tool for MaxAPI bots"
 readme = "README.md"
 authors = [{ name = "Vladislav Kvasov", email = "vladkvasov@gmail.com" }]
@@ -25,10 +25,8 @@ keywords = ['MaxAPI', 'Bots', 'Calendar']
 dependencies = [
     'maxapi>=0.9.18'
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 
-[project.optional-dependencies]
-dev = ["pytest", "pytest-asyncio"]
 
 [project.urls]
 Homepage = "https://github.com/kvasovlad/maxapi_calendar"
